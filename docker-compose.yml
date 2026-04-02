@@ -1,0 +1,6 @@
+services:
+  e2e:
+    build: .
+    environment:
+      - BASE_URL=${BASE_URL:-https://cloud.somin.ai}
+    # Live site; no extra dependencies required.
